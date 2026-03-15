@@ -24,9 +24,77 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script is:inline>
+			const LIGHT_THEME_HOURS = { start: 7, end: 19 };
+			const THEME_COLORS = {
+				light: "#f6efe3",
+				dark: "#0b0b0b",
+			};
+
+			const getThemeForCurrentTime = () => {
+				const hour = new Date().getHours();
+
+				return hour >= LIGHT_THEME_HOURS.start && hour < LIGHT_THEME_HOURS.end
+					? "light"
+					: "dark";
+			};
+
+			const applyTheme = () => {
+				const theme = getThemeForCurrentTime();
+				const root = document.documentElement;
+				const updateThemeColor = () => {
+					const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+					themeColorMeta?.setAttribute("content", THEME_COLORS[theme]);
+				};
+
+				root.dataset.theme = theme;
+				root.style.colorScheme = theme;
+				updateThemeColor();
+				document.addEventListener("DOMContentLoaded", updateThemeColor, {
+					once: true,
+				});
+
+				window.dispatchEvent(
+					new CustomEvent("themechange", {
+						detail: { theme },
+					}),
+				);
+			};
+
+			const scheduleThemeRefresh = () => {
+				const now = new Date();
+				const nextBoundary = new Date(now);
+				const isLightTheme = getThemeForCurrentTime() === "light";
+
+				nextBoundary.setHours(
+					isLightTheme ? LIGHT_THEME_HOURS.end : LIGHT_THEME_HOURS.start,
+					0,
+					0,
+					0,
+				);
+
+				if (nextBoundary <= now) {
+					nextBoundary.setDate(nextBoundary.getDate() + 1);
+				}
+
+				window.setTimeout(() => {
+					applyTheme();
+					scheduleThemeRefresh();
+				}, nextBoundary.getTime() - now.getTime());
+			};
+
+			applyTheme();
+			scheduleThemeRefresh();
+		</script>
 		<link rel="preload" href="/fonts/Geist.woff2" as="font" type="font/woff2" crossorigin="">
 		<link rel="preload" href="/fonts/GeistMono.woff2" as="font" type="font/woff2" crossorigin="">
-
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+			integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
+			crossorigin="anonymous"
+		/>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />

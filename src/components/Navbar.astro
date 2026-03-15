@@ -12,7 +12,7 @@ const path = Astro.url.pathname;
     </li>
     <li class="nav-separator">/</li>
     <li>
-      <a href="/projects" class:list={{ active: path.startsWith('/projects') }}>Projects</a>
+      <a href="/projects" class:list={{ active: path.startsWith('/projects') }}>Portfolio</a>
     </li>
     <li class="nav-separator">/</li>
     <li>
@@ -205,7 +205,7 @@ const path = Astro.url.pathname;
   }
 
   #search::placeholder {
-    color: white;
+    color: var(--text);
   }
 
   #search:focus {
@@ -216,7 +216,7 @@ const path = Astro.url.pathname;
     position: absolute;
     top: calc(100% + .5rem);
     right: 0;
-    background-color: #252525;
+    background-color: var(--surface-strong);
     border: 1px solid var(--primary);
     display: none;
     width: 200%;
@@ -232,8 +232,8 @@ const path = Astro.url.pathname;
     display: none;
     width: 40px;
     height: 40px;
-    background-color: #121212;
-    border: 1px solid #353535;
+    background-color: var(--surface);
+    border: 1px solid var(--border-strong);
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -285,20 +285,20 @@ const path = Astro.url.pathname;
     }
 
     nav.active {
-      background-color: #181818;
+      background-color: var(--background-elevated);
     }
 
     nav.active ul {
       opacity: 1;
       pointer-events: all;
-      background-color: #181818;
+      background-color: var(--background-elevated);
     }
 
     nav ul li {
       position: relative;
       transition: all .25s ease-out;
       top: -1.5rem;
-      border-bottom: 1px solid #353535;
+      border-bottom: 1px solid var(--border-strong);
       width: 100%;
       max-width: none;
       padding: 0;
@@ -313,7 +313,7 @@ const path = Astro.url.pathname;
     }
 
     nav ul li:first-child {
-      border-top: 1px solid #353535;
+      border-top: 1px solid var(--border-strong);
     }
 
     nav.active ul li {
@@ -337,7 +337,7 @@ const path = Astro.url.pathname;
   #search-results a {
     display: block;
     text-decoration: none;
-    color: white !important;
+    color: var(--text) !important;
     padding: .5rem;
   }
 
@@ -347,8 +347,8 @@ const path = Astro.url.pathname;
   }
 
   #search-results a:hover mark, #search-results a:focus-visible mark {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--background-soft);
+    color: var(--text);
   }
 
   #search-results a h3 {
@@ -364,13 +364,13 @@ const path = Astro.url.pathname;
 
   #search-results mark {
     background-color: var(--primary);
-    color: white;
+    color: var(--text);
   }
 
   .separator {
     margin: .5rem .5rem;
     border: none;
     height: 1px;
-    background-color: #353535;
+    background-color: var(--border-strong);
   }
 </style>

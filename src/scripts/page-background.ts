@@ -30,6 +30,8 @@ class PageBackground {
 	private letterInstances: LetterInstance[] = [];
 
 	private primaryRgb: string;
+	private canvasLetterRgb: string;
+	private canvasLetterOpacity: string;
 
 	/**
 	 * Initializes the background on the page.
@@ -62,6 +64,14 @@ class PageBackground {
 			.getComputedStyle(document.documentElement)
 			.getPropertyValue("--primary-rgb")
 			.trim();
+		this.canvasLetterRgb = window
+			.getComputedStyle(document.documentElement)
+			.getPropertyValue("--canvas-letter-rgb")
+			.trim();
+		this.canvasLetterOpacity = window
+			.getComputedStyle(document.documentElement)
+			.getPropertyValue("--canvas-letter-opacity")
+			.trim();
 
 		this.initBackground();
 
@@ -89,7 +99,7 @@ class PageBackground {
 		this.baseCtx.font = "28px Geist Mono";
 		this.baseCtx.textAlign = "start";
 		this.baseCtx.textBaseline = "top";
-		this.baseCtx.fillStyle = "rgba(255, 255, 255, 0.01)";
+		this.baseCtx.fillStyle = `rgba(${this.canvasLetterRgb}, ${this.canvasLetterOpacity})`;
 
 		for (let i = 0; i < lines; i++) {
 			for (let j = 0; j < letters; j++) {
@@ -274,6 +284,20 @@ class PageBackground {
 
 		this.initBackground();
 	};
+
+	public refreshTheme = () => {
+		const computedStyles = window.getComputedStyle(document.documentElement);
+
+		this.primaryRgb = computedStyles.getPropertyValue("--primary-rgb").trim();
+		this.canvasLetterRgb = computedStyles
+			.getPropertyValue("--canvas-letter-rgb")
+			.trim();
+		this.canvasLetterOpacity = computedStyles
+			.getPropertyValue("--canvas-letter-opacity")
+			.trim();
+
+		this.resizeBackground();
+	};
 }
 
 /**
@@ -302,6 +326,10 @@ async function initializeBackground() {
 
 	window.addEventListener("resize", () => {
 		background.resizeBackground();
+	});
+
+	window.addEventListener("themechange", () => {
+		background.refreshTheme();
 	});
 }
 

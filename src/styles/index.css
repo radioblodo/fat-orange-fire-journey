@@ -39,18 +39,28 @@
 	flex-direction: column;
 	gap: 1rem;
 	padding: 1rem;
-	border: 1px solid #353535;
-	color: #ffffff;
+	background:
+		var(--card-highlight),
+		var(--surface);
+	border: 1px solid var(--border-strong);
+	color: var(--text);
+	box-shadow: var(--card-shadow);
 	text-decoration: none;
 	transition:
+		box-shadow 0.15s ease,
 		background-color 0.15s ease,
-		border 0.15s ease;
+		border 0.15s ease,
+		transform 0.15s ease;
 }
 
 .post-container:hover,
 .post-container:focus-visible {
-	background-color: rgba(140, 92, 245, 0.125);
+	background:
+		linear-gradient(180deg, rgba(var(--primary-rgb), 0.12), rgba(var(--primary-rgb), 0.04)),
+		var(--surface);
 	border: 1px solid var(--primary);
+	box-shadow: 0 22px 48px rgba(var(--primary-rgb), 0.18);
+	transform: translateY(-2px);
 }
 
 .post-container:focus-visible {
@@ -59,7 +69,7 @@
 
 .post-date,
 .work-experience-duration {
-	color: #c7c7c7;
+	color: var(--text-muted);
 }
 
 .work-experience-container {
@@ -69,7 +79,7 @@
 }
 
 .work-experience-entry:not(:last-of-type) {
-	border-bottom: 1px solid #353535;
+	border-bottom: 1px solid var(--border-strong);
 	padding-bottom: 1rem;
 }
 
@@ -87,7 +97,7 @@
 }
 
 .socials-link {
-	color: white;
+	color: var(--text);
 	display: flex;
 	flex-direction: row;
 	gap: 0.75rem;

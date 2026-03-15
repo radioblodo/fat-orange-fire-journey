@@ -3,9 +3,9 @@
 		"id": 1,
 		"icon": {
 			"type": "lucide",
-			"name": "github"
+			"name": "trending-up"
 		},
-		"text": "GitHub",
-		"link": "https://github.com/louisescher/spectre"
+		"text": "Investing Note",
+		"link": "https://www.investingnote.com/users/fatorange"
 	}
 ]
