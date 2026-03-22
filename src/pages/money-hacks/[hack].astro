@@ -1,5 +1,6 @@
 ---
 import "../../styles/article.css";
+import "../../styles/article-list.css";
 
 import type { CollectionEntry } from "astro:content";
 import { getCollection, render } from "astro:content";
@@ -10,29 +11,29 @@ import ImageGlow from "../../components/ImageGlow.astro";
 import Layout from "../../layouts/Layout.astro";
 
 interface Props {
-	project: CollectionEntry<"projects">;
+	hack: CollectionEntry<"moneyHacks">;
 }
 
-const { project } = Astro.props;
+const { hack } = Astro.props;
 
 export const getStaticPaths = (async () => {
-	const projects = await getCollection("projects");
+	const moneyHacks = await getCollection("moneyHacks");
 
-	return projects.map((project) => ({
-		params: { project: project.id },
-		props: { project },
+	return moneyHacks.map((hack) => ({
+		params: { hack: hack.id },
+		props: { hack },
 	}));
 }) satisfies GetStaticPaths;
 
-const { Content } = await render(project);
+const { Content } = await render(hack);
 ---
 
 <Layout
-	title={project.data.title}
-	description={project.data.description}
-	image={project.data.image}
+	title={hack.data.title}
+	description={hack.data.description}
+	image={hack.data.image}
 	article={{
-		createdAt: project.data.date,
+		createdAt: hack.data.date,
 	}}
 >
 	<div class="left" slot="left">
@@ -40,7 +41,7 @@ const { Content } = await render(project);
 			<h2 class="no-mt">Info</h2>
 			<ul class="overview-list">
 				{
-					project.data.info.map((info) => {
+					hack.data.info.map((info) => {
 						const Tag = info.link ? "a" : "div";
 						return (
 							<li>
@@ -59,35 +60,50 @@ const { Content } = await render(project);
 					})
 				}
 			</ul>
+			{hack.data.tags.length > 0 && (
+				<>
+					<hr />
+					<h3>Topics</h3>
+					<ul class="tags-list">
+						{hack.data.tags.map((tag) => (
+							<li>
+								<a href={`/money-hacks?tag=${encodeURIComponent(tag)}`} class="blog-tag">
+									{tag}
+								</a>
+							</li>
+						))}
+					</ul>
+				</>
+			)}
 		</Card>
 	</div>
 	<article slot="right" data-pagefind-body>
 		<Card>
 			<div class="article-header" id="_top" data-pagefind-ignore>
 				{
-					project.data.image && (
+					hack.data.image && (
 						<ImageGlow
 							quality={100}
 							class="article-image"
-							src={project.data.image}
-							alt={project.data.title}
+							src={hack.data.image}
+							alt={hack.data.title}
 						/>
 					)
 				}
 				<div class="header">
 					<div>
-						<h1 class="no-mt article-h1">{project.data.title}</h1>
+						<h1 class="no-mt article-h1">{hack.data.title}</h1>
 					</div>
 					<div class="article-info">
-						<span>{project.data.date.toLocaleDateString()}</span>
+						<span>{hack.data.date.toLocaleDateString()}</span>
 					</div>
 				</div>
 			</div>
 			<Content />
 			<hr class="end-of-article" />
-			<a href="/projects" class="block-link" data-pagefind-ignore
-				>← Back to portfolio</a
-			>
+			<a href="/money-hacks" class="block-link" data-pagefind-ignore>
+				← Back to Money Hacks
+			</a>
 		</Card>
 	</article>
 </Layout>

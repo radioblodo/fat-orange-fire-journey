@@ -1,5 +1,26 @@
 [
 	{
 		"id": "guide"
+	},
+	{
+		"id": "cards"
+	},
+	{
+		"id": "deals"
+	},
+	{
+		"id": "travel"
+	},
+	{
+		"id": "savings"
+	},
+	{
+		"id": "banking"
+	},
+	{
+		"id": "vouchers"
+	},
+	{
+		"id": "personal-finance"
 	}
 ]

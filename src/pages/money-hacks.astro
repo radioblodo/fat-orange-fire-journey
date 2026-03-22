@@ -1,0 +1,127 @@
+---
+import "../styles/article-list.css";
+
+import { getCollection } from "astro:content";
+import { openGraph } from "spectre:globals";
+import Card from "../components/Card.astro";
+import Icon from "../components/Icon.astro";
+import Layout from "../layouts/Layout.astro";
+
+const moneyHacks = await getCollection("moneyHacks");
+const selectedTag = Astro.url.searchParams.get("tag");
+const allTags = [...new Set(moneyHacks.flatMap((entry) => entry.data.tags))].sort();
+const filteredHacks = selectedTag
+	? moneyHacks.filter((entry) => entry.data.tags.includes(selectedTag))
+	: moneyHacks;
+---
+<Layout
+	title={openGraph.projects.title || "Money Hacks"}
+	description={openGraph.projects.description}
+	pagefindIgnore
+>
+	<div class="layout-grid-left" slot="left">
+		<Card class="flex-col-card">
+			<h2 class="no-mt">Stats</h2>
+			<div class="stats-div">
+				<div class="stat">
+					<h3 class="text-glow">{filteredHacks.length}</h3>
+					<span>Money Hack{filteredHacks.length === 1 ? "" : "s"}</span>
+				</div>
+				<div class="stat">
+					<h3 class="text-glow">{allTags.length}</h3>
+					<span>Topic{allTags.length === 1 ? "" : "s"}</span>
+				</div>
+			</div>
+		</Card>
+		<Card>
+			<div class="header-container">
+				<Icon type="lucide" name="tags" width={24} height={24} class="glow-icon" />
+				<h2>Topics</h2>
+			</div>
+			<ul class="tags-list">
+				<li>
+					<a href="/money-hacks" class:list={{ "blog-tag": true, active: !selectedTag }}>
+						All
+					</a>
+				</li>
+				{
+					allTags.map((tag) => (
+						<li>
+							<a
+								href={`/money-hacks?tag=${encodeURIComponent(tag)}`}
+								class:list={{ "blog-tag": true, active: selectedTag === tag }}
+							>
+								{tag}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</Card>
+	</div>
+	<div class="layout-grid-right" slot="right">
+		<Card>
+			<div class="header-container">
+				<Icon type="lucide" name="wallet-cards" width={24} height={24} class="glow-icon" />
+				<h2>Money Hacks</h2>
+			</div>
+			<div class="content-container">
+				{
+					filteredHacks
+						.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+						.map((entry) => (
+							<a href={`/money-hacks/${entry.id}`} class="post-container">
+								<div class="post-header">
+									<h3>{entry.data.title}</h3>
+									<span class="post-date">{entry.data.date.toLocaleDateString()}</span>
+								</div>
+								<span>{entry.data.description}</span>
+								{entry.data.tags.length > 0 && (
+									<ul class="tags-list entry-tags">
+										{entry.data.tags.map((tag) => (
+											<li>
+												<span class="blog-tag">{tag}</span>
+											</li>
+										))}
+									</ul>
+								)}
+							</a>
+						))
+				}
+				{
+					filteredHacks.length === 0 && (
+						<p class="no-mt">
+							No money hacks found{selectedTag ? ` for "${selectedTag}".` : "."}
+						</p>
+					)
+				}
+			</div>
+		</Card>
+	</div>
+</Layout>
+<style>
+	.stats-div {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.stat {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.stat h3 {
+		font-size: 2em;
+		margin: 0 0 0.5rem;
+	}
+
+	.entry-tags {
+		gap: 0.5rem;
+		margin-top: 1rem;
+	}
+	
+	.entry-tags .blog-tag {
+		font-size: 0.875rem;
+	}
+</style>
