@@ -1092,4 +1092,4057 @@ $[K
 [?25h[?2004h[32m
 zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
 $ git add .
+[?2004lwarning: in the working copy of 'src/content/posts/w12y26.mdx', LF will be replaced by CRLF the next time Git touches it
+[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ git commit -m "Added a post on blog[K[K[K[K[K[K[K[K[K[K[K[Kblog post on gold"
+[?2004l[main e272d39] Added a blog post on gold
+ 2 files changed, 1140 insertions(+)
+ create mode 100644 src/content/posts/w12y26.mdx
+ create mode 100644 terminal.log
+[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ git push
+[?2004lEnumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.52 KiB | 3.52 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+To https://github.com/radioblodo/fat-orange-fire-journey.git
+   1227294..e272d39  main -> main
+[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ codex "How to write a banner to include a disclaie[Kner [K[K[K[Kmer that says [7m> **Disclaim[27m[7mer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions.[?5h[27m[?5l[?25l[48;66H> **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions.[?25h"
+[?2004l[K]0;C:\WINDOWS\system32\cmd.exe WARNING: proceeding, even though we could not update PATH: Access is denied. [?25l
+(os error 5) at path "C:\\WINDOWS\\.tmpGC0YAO"[31C
+[91merror: [munexpected argument '[33mProgression[m' found[K[31C
+[77C
+[1mUsage:[22m codex [OPTIONS] [PROMPT][K[46C
+       codex [OPTIONS] <COMMAND> [ARGS][38C
+[77C
+For more information, try '[1m--help[22m'.[K[42C
+[?25h[?2004h]0;MINGW64:/c/Users/zilia/fat-orange-fire-journey
+[32mzilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$[1Ccodex "How to write a banner to include a disclaimer that says > **Disclaim
+[53;77Hmer:** I am not a financial advisor. The content on this blog, including my "F
+[53;77HFIRE Progression Tiers" and investment choices like VWRA, is for educational a
+[53;77Hand documentary purposes only. It does not constitute professional financial, 
+[53;77H investment, or legal advice. Investing involves risk, and you should perform 
+[53;77H your own due diligence or consult a licensed professional before making any f
+[53;77Hfinancial decisions."[?25l[53;21H[?25h[?25l[48;3H[K
+[K
+[K
+[K
+[K
+[K
+[K[48;3H[?25hcodex "How to write a banner to include a disclaimer that says > **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[?25l[H        [31msrc/content/posts/w12y26.mdx[K[m
+        [31mterminal.log[K[m
+[K
+nothing added to commit but untracked files present (use "git add" to track)[K
+[K[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ git add .[K
+warning: in the working copy of 'src/content/posts/w12y26.mdx', LF will be replaced by CRLF the next time Git touches it[K
+[K[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ git commit -m "Added a blog post on gold"[K
+[main e272d39] Added a blog post on gold[K
+ 2 files changed, 1140 insertions(+)[K
+ create mode 100644 src/content/posts/w12y26.mdx[K
+ create mode 100644 terminal.log[K
+[K[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ git push[K
+Enumerating objects: 11, done.[K
+Counting objects: 100% (11/11), done.[K
+Delta compression using up to 16 threads[K
+Compressing objects: 100% (7/7), done.[K
+Writing objects: 100% (7/7), 3.52 KiB | 3.52 MiB/s, done.[K
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)[K
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/radioblodo/fat-orange-fire-journey.git[K
+   1227294..e272d39  main -> main[K
+[K[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ codex "How to write a banner to include a disclaimer that says > **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K
+WARNING: proceeding, even though we could not update PATH: Access is denied.[K
+(os error 5) at path "C:\\WINDOWS\\.tmpGC0YAO"[K[91m
+error: [munexpected argument '[33mProgression[m' found[K
+[K[1m
+Usage:[22m codex [OPTIONS] [PROMPT][K
+       codex [OPTIONS] <COMMAND> [ARGS][K
+[K
+For more information, try '[1m--help[22m'.[K
+[K[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ codex "How to write a banner to include a disclaimer that says > **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[45;117H[?25h[?25l[39;1H$ codex "How to write a banner to include a disclaimer that says > **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[D[K
+[K
+                                                                                                                                                                                                                                                                                                                                                                              
+[K[41;119H[?25h[K[K[?25l[40;1H[?25h[182C[1C is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and yo[?25lu should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;27H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you[?25l should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;26H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you [?25lshould perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;25H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you s[?25lhould perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;24H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you sh[?25lould perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;23H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you sho[?25luld perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;22H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you shou[?25lld perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;21H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you shoul[?25ld perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;20H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should[?25l perform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;19H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should [?25lperform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;18H[?25h[?25lis for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[40;17H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[40;16H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should per[?25lform your own due diligence or consult a licensed professional before making any financial decisions."[K[40;15H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perf[?25lorm your own due diligence or consult a licensed professional before making any financial decisions."[K[40;14H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perfo[?25lrm your own due diligence or consult a licensed professional before making any financial decisions."[K[40;13H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perfor[?25lm your own due diligence or consult a licensed professional before making any financial decisions."[K[40;12H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform[?25l your own due diligence or consult a licensed professional before making any financial decisions."[K[40;11H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform [?25lyour own due diligence or consult a licensed professional before making any financial decisions."[K[40;10H[?25h[?25lis for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[40;9H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[40;8H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform you[?25lr own due diligence or consult a licensed professional before making any financial decisions."[K[40;7H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your[?25l own due diligence or consult a licensed professional before making any financial decisions."[K[40;6H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your [?25lown due diligence or consult a licensed professional before making any financial decisions."[K[40;5H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your o[?25lwn due diligence or consult a licensed professional before making any financial decisions."[K[40;4H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your ow[?25ln due diligence or consult a licensed professional before making any financial decisions."[K[40;3H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own[?25l due diligence or consult a licensed professional before making any financial decisions."[K[40;2H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own [?25ldue diligence or consult a licensed professional before making any financial decisions."[K[40;1H[?25h[?25l[39;1H[?25h[?25l[182C is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[39;46H[?25h[137C is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own du[?25le diligence or consult a licensed professional before making any financial decisions."[K[39;182H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due[?25l diligence or consult a licensed professional before making any financial decisions."[K[39;181H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due [?25ldiligence or consult a licensed professional before making any financial decisions."[K[39;180H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due d[?25liligence or consult a licensed professional before making any financial decisions."[K[39;179H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due di[?25lligence or consult a licensed professional before making any financial decisions."[K[39;178H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due dil[?25ligence or consult a licensed professional before making any financial decisions."[K[39;177H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due dili[?25lgence or consult a licensed professional before making any financial decisions."[K[39;176H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due dilig[?25lence or consult a licensed professional before making any financial decisions."[K[39;175H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due dilige[?25lnce or consult a licensed professional before making any financial decisions."[K[39;174H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;173H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligenc[?25le or consult a licensed professional before making any financial decisions."[K[39;172H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;171H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence [?25lor consult a licensed professional before making any financial decisions."[K[39;170H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;169H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or[?25l consult a licensed professional before making any financial decisions."[K[39;168H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or [?25lconsult a licensed professional before making any financial decisions."[K[39;167H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or c[?25lonsult a licensed professional before making any financial decisions."[K[39;166H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or co[?25lnsult a licensed professional before making any financial decisions."[K[39;165H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or con[?25lsult a licensed professional before making any financial decisions."[K[39;164H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or cons[?25lult a licensed professional before making any financial decisions."[K[39;163H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consu[?25llt a licensed professional before making any financial decisions."[K[39;162H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consul[?25lt a licensed professional before making any financial decisions."[K[39;161H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult[?25l a licensed professional before making any financial decisions."[K[39;160H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult [?25la licensed professional before making any financial decisions."[K[39;159H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a[?25l licensed professional before making any financial decisions."[K[39;158H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a [?25llicensed professional before making any financial decisions."[K[39;157H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a l[?25licensed professional before making any financial decisions."[K[39;156H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[39;155H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;154H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a lice[?25lnsed professional before making any financial decisions."[K[39;153H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licen[?25lsed professional before making any financial decisions."[K[39;152H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licens[?25led professional before making any financial decisions."[K[39;151H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a license[?25ld professional before making any financial decisions."[K[39;150H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed[?25l professional before making any financial decisions."[K[39;149H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed [?25lprofessional before making any financial decisions."[K[39;148H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed p[?25lrofessional before making any financial decisions."[K[39;147H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed pr[?25lofessional before making any financial decisions."[K[39;146H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;145H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed prof[?25lessional before making any financial decisions."[K[39;144H[?25h[?25l is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K[41;2H[?25h[?25l[39;143H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed profes[?25l[1Cional before making any financial decisions."[K[39;142H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed profess[?25lional before making any financial decisions."[K[39;141H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professi[?25lonal before making any financial decisions."[K[39;140H[?25his for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professio[?25lnal before making any financial decisions."[K[39;139H[?25h is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed profession[?25lal before making any financial decisions."[K[39;138H[?25h **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professiona[?25ll before making any financial decisions."[K[39;66H[?25h
+[?2004l[?25l[42;1H[?25h[K]0;C:\WINDOWS\system32\cmd.exe WARNING: proceeding, even though we could not update PATH: Access is denied. (os error 5) at path "C:\\WINDOWS\\.tmpOmxfhU"[K
+                                                                                                                                                                                       [43;1H╭─────────────────────────────────────────────────╮[?25l[K
+│ [36m✨ Update available! [m[1m0.79.0 -> 0.115.0[22m          │[K
+│ Run [36mnpm install -g @openai/codex [mto update.     │[K
+│                                                 │[K
+│ See full release notes:                         │[K
+│ [36mhttps://github.com/openai/codex/releases/latest [m│[K
+╰─────────────────────────────────────────────────╯[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[52;3H[?25h[?25l[51;1H╭─────────────────────────────────────────────╮[K
+│ >_ [1mOpenAI Codex[22m (v0.79.0)                   │[K
+│                                             │[K
+│ model:     gpt-5.2-codex   [36m/model [mto change │[K
+│ directory: ~\fat-orange-fire-journey        │[K[136C
+╰─────────────────────────────────────────────╯[136C
+[183C
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K[122C
+[183C
+[183C
+[1m› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It 
+  does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional   
+  before making any financial decisions.[143C
+[183C
+[183C
+• Working (0s • esc to interrupt)[150C
+[183C
+[183C
+[1m›[22m Explain this codebase[K[160C
+[183C
+  100% context left · ? for shortcuts[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (0s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (0s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (0s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWork[22ming (0s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWorki[22mng (0s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[146C[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (1s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[55;38H[?25h[?25l[53;3H[?25h[?25l[50;1H• Working (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mW[22morking (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWo[22mrking (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (2s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Work[1ming[22m (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Worki[1mng[22m (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[50;8H[?25h[?25l[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (3s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[55;38H[?25h[?25l[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (4s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wo[1mrking[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wor[1mking[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (5s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWork[22ming (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWorki[22mng (6s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[55;38H[?25h[?25l[53;3H[?25h[?25l[50;1H• Work[1ming[22m (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (7s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[55;38H[?25h[?25l[53;3H[?25h[?25l[50;1H• [1mW[22morking (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWo[22mrking (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (8s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Work[1ming[22m (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Worki[1mng[22m (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (9s • esc to interrupt)[K[150C
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (9s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (10s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wo[1mrking[22m (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wor[1mking[22m (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (11s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWork[22ming (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWorki[22mng (12s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (13s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[50;14H[?25h[?25l[53;3H[?25h[?25l[50;1H• Working (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mW[22morking (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWo[22mrking (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (14s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Work[1ming[22m (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Worki[1mng[22m (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (15s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (16s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wo[1mrking[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wor[1mking[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (17s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWork[22ming (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWorki[22mng (18s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[55;38H[?25h[?25l[53;3H[?25h[?25l[50;1H◦ Working (19s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[50;2H[?25h[?25l[53;3H[?25h[?25l[50;1H• [1mW[22morking (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWo[22mrking (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWor[22mking (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (20s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Work[1ming[22m (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Worki[1mng[22m (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Workin[1mg[22m (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (21s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[50;5H[?25h[?25l[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWork[22ming (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• [1mWorki[22mng (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (22s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• W[1morkin[22mg (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wo[1mrking[22m (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Wor[1mking[22m (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Worki[1mng[22m (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Workin[1mg[22m (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Working (23s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Working (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mW[22morking (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWo[22mrking (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWor[22mking (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWork[22ming (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ [1mWorki[22mng (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (24s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ W[1morkin[22mg (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wo[1mrking[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Wor[1mking[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Work[1ming[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy[1m sugg[22mestion (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy [1msugge[22mstion (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy s[1mugges[22mtion (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy sug[1mgesti[22mon (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy sugg[1mestio[22mn (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy sugges[1mtion[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy suggest[1mion[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy suggesti[1mon[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy suggestio[1mn[22m (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• Providing banner copy suggestion (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Providing banner copy suggestion (25s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H◦ Providing banner copy suggestion (26s • esc to interrupt)[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[50;1H• I'm preparing concise banner text and basic HTML/CSS to guide the user on writing an effective banner message.[K
+[K
+─ Worked for 26s ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[K
+◦ Providing banner copy suggestion (26s • esc to interrupt)[K
+[K[183C
+[183C
+[1m›[22m Explain this codebase[K[160C
+[183C
+  100% context left · ? for shortcuts[53;3H[?25h[?25l[55;38H[?25h[?25l[50;1H• Here’s a clean banner version you can drop in as plain text or UI copy:[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[K[1m
+›[22m Explain this codebase[K
+[K[183C
+  100% context left · ? for shortcuts[53;3H[?25h[?25l[51;1H  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for educational and documentary purposes only and does not constitute professional financial, investment, or   
+[K
+[K
+[K
+[K[183C
+[183C
+[1m›[22m Explain this codebase[K[160C
+[183C
+  100% context left · ? for shortcuts[50;3H[?25h[?25l[48;1H  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m Explain this codebase[K
+[K
+  100% context left · ? for shortcuts[K[53;3H[?25h[?25l[1m›[22m I[K
+[K
+  100% context left[K[53;4H[?25h[1C[?25l[1m›[22m I w[K
+[K
+  100% context left[K[53;6H[?25h[?25l[1m›[22m I wa[K
+[K
+  100% context left[K[53;7H[?25h[?25l[1m›[22m I wan[K
+[K
+  100% context left[K[53;7H[?25h[1C[?25l[1m›[22m I want[K
+[K
+  100% context left[K[53;9H[?25h[1C[?25l[1m›[22m I want t[K
+[K
+  100% context left[K[53;11H[?25h[?25l[1m›[22m I want th[K
+[K
+  100% context left[K[53;12H[?25h[?25l[1m›[22m I want the[K
+[K
+  100% context left[K[53;13H[?25h[1C[?25l[1m›[22m I want the b[K
+[K
+  100% context left[K[53;15H[?25h[?25l[1m›[22m I want the ba[K
+[K
+  100% context left[K[53;16H[?25h[?25l[1m›[22m I want the ban[K
+[K
+  100% context left[K[53;17H[?25h[?25l[1m›[22m I want the bann[K
+[K
+  100% context left[K[53;18H[?25h[?25l[1m›[22m I want the banne[K
+[K
+  100% context left[K[53;19H[?25h[?25l[1m›[22m I want the banner[K
+[K
+  100% context left[K[53;20H[?25h[1C[?25l[1m›[22m I want the banner t[K
+[K
+  100% context left[K[53;22H[?25h[?25l[1m›[22m I want the banner to[K
+[K
+  100% context left[K[53;23H[?25h[1C[?25l[1m›[22m I want the banner to a[K
+[K
+  100% context left[K[53;25H[?25h[?25l[1m›[22m I want the banner to ap[K
+[K
+  100% context left[K[53;26H[?25h[?25l[1m›[22m I want the banner to app[K
+[K
+  100% context left[K[53;27H[?25h[?25l[1m›[22m I want the banner to appe[K
+[K
+  100% context left[K[53;28H[?25h[?25l[1m›[22m I want the banner to appea[K
+[K
+  100% context left[K[53;29H[?25h[?25l[1m›[22m I want the banner to appear[K
+[K
+  100% context left[K[53;30H[?25h[1C[?25l[1m›[22m I want the banner to appear o[K
+[K
+  100% context left[K[53;32H[?25h[?25l[1m›[22m I want the banner to appear on[K
+[K
+  100% context left[K[53;33H[?25h[1C[?25l[1m›[22m I want the banner to appear on t[K
+[K
+  100% context left[K[53;35H[?25h[?25l[1m›[22m I want the banner to appear on to[K
+[K
+  100% context left[K[53;36H[?25h[?25l[1m›[22m I want the banner to appear on top[K
+[K
+  100% context left[K[53;37H[?25h[1C[?25l[1m›[22m I want the banner to appear on top o[K
+[K
+  100% context left[K[53;39H[?25h[?25l[1m›[22m I want the banner to appear on top of[K
+[K
+  100% context left[K[53;40H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of e[K
+[K
+  100% context left[K[53;42H[?25h[?25l[1m›[22m I want the banner to appear on top of ea[K
+[K
+  100% context left[K[53;43H[?25h[?25l[1m›[22m I want the banner to appear on top of e[K
+[K
+  100% context left[K[53;42H[?25h[?25l[1m›[22m I want the banner to appear on top of ev[K
+[K
+  100% context left[K[53;43H[?25h[?25l[1m›[22m I want the banner to appear on top of eve[K
+[K
+  100% context left[K[53;44H[?25h[?25l[1m›[22m I want the banner to appear on top of ever[K
+[K
+  100% context left[K[53;45H[?25h[?25l[1m›[22m I want the banner to appear on top of every[K
+[K
+  100% context left[K[53;46H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every p[K
+[K
+  100% context left[K[53;48H[?25h[?25l[1m›[22m I want the banner to appear on top of every po[K
+[K
+  100% context left[K[53;49H[?25h[?25l[1m›[22m I want the banner to appear on top of every pos[K
+[K
+  100% context left[K[53;50H[?25h[?25l[1m›[22m I want the banner to appear on top of every post[K
+[K
+  100% context left[K[53;51H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post ([K
+[K
+  100% context left[K[53;53H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (b[K
+[K
+  100% context left[K[53;54H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (bl[K
+[K
+  100% context left[K[53;55H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blo[K
+[K
+  100% context left[K[53;56H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog[K
+[K
+  100% context left[K[53;57H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog a[K
+[K
+  100% context left[K[53;59H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog an[K
+[K
+  100% context left[K[53;60H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and[K
+[K
+  100% context left[K[53;61H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and p[K
+[K
+  100% context left[K[53;63H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and pr[K
+[K
+  100% context left[K[53;64H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and pro[K
+[K
+  100% context left[K[53;65H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and proj[K
+[K
+  100% context left[K[53;66H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and proje[K
+[K
+  100% context left[K[53;67H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and projec[K
+[K
+  100% context left[K[53;68H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project[K
+[K
+  100% context left[K[53;69H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project)[K
+[K
+  100% context left[K[53;70H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) a[K
+[K
+  100% context left[K[53;72H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) an[K
+[K
+  100% context left[K[53;73H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and[K
+[K
+  100% context left[K[53;74H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and r[K
+[K
+  100% context left[K[53;76H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and re[K
+[K
+  100% context left[K[53;77H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and rem[K
+[K
+  100% context left[K[53;78H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and rema[K
+[K
+  100% context left[K[53;79H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remai[K
+[K
+  100% context left[K[53;80H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remain[K
+[K
+  100% context left[K[53;81H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains[K
+[K
+  100% context left[K[53;82H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains s[K
+[K
+  100% context left[K[53;84H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains st[K
+[K
+  100% context left[K[53;85H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sti[K
+[K
+  100% context left[K[53;86H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains stic[K
+[K
+  100% context left[K[53;87H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains stick[K
+[K
+  100% context left[K[53;88H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky[K
+[K
+  100% context left[K[53;89H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky a[K
+[K
+  100% context left[K[53;91H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky[K
+[K
+  100% context left[K[53;90H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky e[K
+[K
+  100% context left[K[53;91H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky ev[K
+[K
+  100% context left[K[53;92H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky eve[K
+[K
+  100% context left[K[53;93H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even[K
+[K
+  100% context left[K[53;94H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even a[K
+[K
+  100% context left[K[53;96H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as[K
+[K
+  100% context left[K[53;97H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as s[K
+[K
+  100% context left[K[53;99H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as[K
+[K
+  100% context left[K[53;98H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as t[K
+[K
+  100% context left[K[53;99H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as th[K
+[K
+  100% context left[K[53;100H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the[K
+[K
+  100% context left[K[53;101H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the r[K
+[K
+  100% context left[K[53;103H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the re[K
+[K
+  100% context left[K[53;104H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the rea[K
+[K
+  100% context left[K[53;105H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the read[K
+[K
+  100% context left[K[53;106H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reade[K
+[K
+  100% context left[K[53;107H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader[K
+[K
+  100% context left[K[53;108H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader s[K
+[K
+  100% context left[K[53;110H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader sc[K
+[K
+  100% context left[K[53;111H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scr[K
+[K
+  100% context left[K[53;112H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scro[K
+[K
+  100% context left[K[53;113H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrol[K
+[K
+  100% context left[K[53;114H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scroll[K
+[K
+  100% context left[K[53;115H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls[K
+[K
+  100% context left[K[53;116H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls d[K
+[K
+  100% context left[K[53;118H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls do[K
+[K
+  100% context left[K[53;119H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down[K
+[K
+  100% context left[K[53;121H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down t[K
+[K
+  100% context left[K[53;123H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down th[K
+[K
+  100% context left[K[53;124H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the[K
+[K
+  100% context left[K[53;125H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the b[K
+[K
+  100% context left[K[53;127H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the bl[K
+[K
+  100% context left[K[53;128H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blo[K
+[K
+  100% context left[K[53;129H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog[K
+[K
+  100% context left[K[53;130H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog p[K
+[K
+  100% context left[K[53;132H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog po[K
+[K
+  100% context left[K[53;133H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog pos[K
+[K
+  100% context left[K[53;134H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post[K
+[K
+  100% context left[K[53;135H[?25h[?25l[55;1H[K[183C
+  100% context left[53;3H[?25h[?25l
+  100% context left[K
+[K[52;135H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post b[K
+[K
+  100% context left[K
+[K[52;137H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post bu[K
+[K
+  100% context left[K
+[K[52;138H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but[K
+[K
+  100% context left[K
+[K[52;139H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but t[K
+[K
+  100% context left[K
+[K[52;141H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but th[K
+[K
+  100% context left[K
+[K[52;142H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the[K
+[K
+  100% context left[K
+[K[52;143H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the b[K
+[K
+  100% context left[K
+[K[52;144H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the ba[K
+[K
+  100% context left[K
+[K[52;146H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the ban[K
+[K
+  100% context left[K
+[K[52;147H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the bann[K
+[K
+  100% context left[K
+[K[52;147H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banne[K
+[K
+  100% context left[K
+[K[52;149H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner[K
+[K
+  100% context left[K
+[K[52;150H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner s[K
+[K
+  100% context left[K
+[K[52;152H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner sh[K
+[K
+  100% context left[K
+[K[52;153H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner sho[K
+[K
+  100% context left[K
+[K[52;154H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner shou[K
+[K
+  100% context left[K
+[K[52;155H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner shoul[K
+[K
+  100% context left[K
+[K[52;156H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should[K
+[K
+  100% context left[K
+[K[52;157H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should b[K
+[K
+  100% context left[K
+[K[52;159H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be[K
+[K
+  100% context left[K
+[K[52;160H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be b[K
+[K
+  100% context left[K
+[K[52;162H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be be[K
+[K
+  100% context left[K
+[K[52;163H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be bel[K
+[K
+  100% context left[K
+[K[52;164H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be belo[K
+[K
+  100% context left[K
+[K[52;165H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below[K
+[K
+  100% context left[K
+[K[52;166H[?25h[?25l[54;20H[?25h[?25l[52;167H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below t[K
+[K
+  100% context left[K
+[K[52;168H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below th[K
+[K
+  100% context left[K
+[K[52;169H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the[K
+[K
+  100% context left[K
+[K[52;170H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the n[K
+[K
+  100% context left[K
+[K[52;172H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the na[K
+[K
+  100% context left[K
+[K[52;173H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the nav[K
+[K
+  100% context left[K
+[K[52;174H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navi[K
+[K
+  100% context left[K
+[K[52;175H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navig        
+[K
+  100% context left[K
+[K[52;176H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the naviga       
+[K
+  100% context left[K
+[K[52;177H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigat      
+[K
+  100% context left[K
+[K[52;177H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigati     
+[K
+  100% context left[K
+[K[52;179H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigatio    
+[K
+  100% context left[K
+[K[52;180H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+[K
+  100% context left[K
+[K[52;181H[?25h[1C[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation b 
+[K
+  100% context left[K
+[K[52;183H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  ba[K
+[K
+  100% context left[K[53;5H[?25h[?25l  bar[K
+[K
+  100% context left[K[53;6H[?25h[?25l[55;1H[K[183C
+  100% context left[53;3H[?25h[?25l[55;1H[K[183C
+  100% context left[53;3H[?25h[?25l
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;6H[?25h[?25l[53;1H[K
+  100% context left[K
+[K[52;3H[?25h[?25l[54;1H[K
+  100% context left[K[53;3H[?25h[?25l
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;6H[?25h[?25l[53;1H[K
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;6H[?25h[?25l[53;1H[K
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;6H[?25h[?25l  barj[K
+[K
+  100% context left[K
+[K
+[K[51;7H[?25h[?25l[53;1H[K
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;7H[?25h[?25l[53;1H[K
+  100% context left[K
+[K[52;3H[?25h[?25l
+  100% context left[K
+[K
+[K[51;7H[?25h[?25l  bar[K
+[K
+  100% context left[K
+[K
+[K[51;6H[?25h[?25l[32m[Hzilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[K[m
+$ codex "How to write a banner to include a disclaimer that says > **Disclaimer:** I am not a financial advisor. The content on this blog, including my "FIRE Progression Tiers" and investment choices like VWRA, is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions."[K
+WARNING: proceeding, even though we could not update PATH: Access is denied.[K
+(os error 5) at path "C:\\WINDOWS\\.tmpGC0YAO"[K[91m
+error: [munexpected argument '[33mProgression[m' found[K
+[K[1m
+Usage:[22m codex [OPTIONS] [PROMPT][K
+       codex [OPTIONS] <COMMAND> [ARGS][K
+$ codex "How to write a banner to include a disclaimer that says  **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes on
+ly. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed profession
+al before making any financial decisions."[K
+WARNING: proceeding, even though we could not update PATH: Access is denied. (os error 5) at path "C:\\WINDOWS\\.tmpOmxfhU"[K
+╭─────────────────────────────────────────────────╮[K
+│ [36m✨ Update available! [m[1m0.79.0 -> 0.115.0[22m          │[K
+│ Run [36mnpm install -g @openai/codex [mto update.     │[K
+│                                                 │[K
+│ See full release notes:                         │[K
+│ [36mhttps://github.com/openai/codex/releases/latest [m│[K
+╰─────────────────────────────────────────────────╯[K
+[K
+╭─────────────────────────────────────────────╮[K
+│ >_ [1mOpenAI Codex[22m (v0.79.0)                   │[K
+│                                             │[K
+│ model:     gpt-5.2-codex   [36m/model [mto change │[K
+│ directory: ~\fat-orange-fire-journey        │[K
+╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It 
+  does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional   
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on writing an effective banner message.[K
+[K
+─ Worked for 26s ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:[K
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for educational and documentary purposes only and does not constitute professional financial, investment, or   
+  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K[51;6H[?25h[?25l[HWARNING: proceeding, even though we could not update PATH: Access is denied. (os error 5) at path "C:\\WINDOWS\\.tmpOmxfhU"[K
+╭─────────────────────────────────────────────────╮[K
+│ [36m✨ Update available! [m[1m0.79.0 -> 0.115.0[22m          │[K
+│ Run [36mnpm install -g @openai/codex [mto update.     │[K
+│                                                 │[K
+│ See full release notes:                         │[K
+│ [36mhttps://github.com/openai/codex/releases/latest [m│[K
+╰─────────────────────────────────────────────────╯[K
+[K
+╭─────────────────────────────────────────────╮[K
+│ >_ [1mOpenAI Codex[22m (v0.79.0)                   │[K
+│                                             │[K
+│ model:     gpt-5.2-codex   [36m/model [mto change │[K
+│ directory: ~\fat-orange-fire-journey        │[K
+╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on writing an effective banner message.[K
+[K
+─ Worked for 26s ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for educational and documentary purposes only and does not constitute professional financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation[K
+  bar[K
+[K
+  100% context left[K[52;6H[?25h[?25l[15;1HWARNING: proceeding, even though we could not update PATH: Access is denied. 
+(os error 5) at path "C:\\WINDOWS\\.tmpOmxfhU"[K
+╭─────────────────────────────────────────────────╮[K
+│ [36m✨ Update available! [m[1m0.79.0 -> 0.115.0[22m          │[K
+│ Run [36mnpm install -g @openai/codex [mto update.     │[K
+│                                                 │[K
+│ See full release notes:                         │[K
+│ [36mhttps://github.com/openai/codex/releases/latest [m│[K
+╰─────────────────────────────────────────────────╯[K
+[K
+╭─────────────────────────────────────────────╮[K
+│ >_ [1mOpenAI Codex[22m (v0.79.0)                   │[K
+│                                             │[K
+│ model:     gpt-5.2-codex   [36m/model [mto change │[K
+╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K[51C
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[9C
+[77C
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[59C
+[77C
+[77C
+[1m›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[51C
+  bar[72C
+[77C
+  100% context left[58C
+[77C
+[77C
+[77C
+[77C
+[77C
+[77C
+[77C
+[77C
+[77C
+[77C
+[1m›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar[34C
+[77C
+  100% context left[52;44H[?25h[?25l[H╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I[K
+am not a financial advisor. The content on this blog is for educational and d[K
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In[K
+vesting involves risk, and you should perform your own due diligence or consu[K
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w[K
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────[K
+─────────────────────────────────────────────────────────────────────────────[K
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:[K
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e[K
+ducational and documentary purposes only and does not constitute professional[K
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co[K
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll[K
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem[K
+ains sticky even as the reader scrolls down the blog post but the banner shou[K
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K[52;44H[?25h[?25l[H╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar[K
+[K
+  100% context left[K[52;44H[?25h[?25l[H[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[H  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K[77C
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar[K
+[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[48;1H[K
+[K
+[K
+[K
+[K
+[K
+[K[52;3H[?25h[?25l[1m[48;1H›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar[K
+[K
+[K
+  100% context left[K
+[K[51;3H[?25h[?25l
+  100% context left[K
+[K
+[K[50;44H[?25h[?25l[52;1H[K
+  100% context left[K
+[K[51;3H[?25h[1C[1C[1C[?25l[53;1H[K
+  100% context left[K[52;3H[?25h[?25l
+  100% context left[K
+[K[51;6H[?25h[?25l
+  100% context left[K
+[K
+[K[50;44H[?25h[?25l  banner should be below the navigation bar;[K
+[K
+  100% context left[K
+[K
+[K[50;45H[?25h[?25l[52;1H[K
+  100% context left[K
+[K[51;3H[?25h
+  100% context left[?25l[K
+[K
+[K[50;45H[?25h[?25l  banner should be below the navigation bar[K
+[K
+  100% context left[K
+[K
+[K[50;44H[?25h[?25l  banner should be below the navigation bar/[K
+[K
+  100% context left[K
+[K
+[K[50;45H[?25h[?25l[52;1H[K
+  100% context left[K
+[K[51;3H[?25h[?25l[53;1H[K
+  100% context left[K[52;3H[?25h[?25l[H[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[1m[2;1H› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar/[K
+[K[77C
+[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[1m[46;1H›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[1m[H› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I 
+am not a financial advisor. The content on this blog is for educational and d
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In
+vesting involves risk, and you should perform your own due diligence or consu
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:    
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e
+ducational and documentary purposes only and does not constitute professional
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll 
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem
+ains sticky even as the reader scrolls down the blog post but the banner shou
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and    
+  remains sticky even as the reader scrolls down the blog post but the       
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[52;3H[?25h[?25l[1m[H› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I[K
+am not a financial advisor. The content on this blog is for educational and d[K
+ocumentary purposes only. It[K
+  does not constitute professional financial, investment, or legal advice. In[K
+vesting involves risk, and you should perform your own due diligence or consu[K
+lt a licensed professional[K
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on w[K
+riting an effective banner message.[K
+[K
+─ Worked for 26s ────────────────────────────────────────────────────────────[K
+─────────────────────────────────────────────────────────────────────────────[K
+─────────────────────────────[K
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:[K
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for e[K
+ducational and documentary purposes only and does not constitute professional[K
+ financial, investment, or[K
+  legal advice. Investing involves risk. Perform your own due diligence or co[K
+nsult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll[K
+tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and rem[K
+ains sticky even as the reader scrolls down the blog post but the banner shou[K
+ld be below the navigation[K
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K[52;3H[?25h[?25l[H  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for educational and documentary purposes only and does not constitute professional financial, investment, or   
+  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[164C
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[46;1H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K[52;3H[?25h[?25l[54;1H[K
+  100% context left[K[53;3H[?25h[?25l[H  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[45;1H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K[183C
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[2;1H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[37;1H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[10;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[9;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[8;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[33;1H›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[7;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[6;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[5;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[4;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[3;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[2;1H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[1m[H›[22m I want the banner to appear on top of every post (blog and project) and[K
+  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H  remains sticky even as the reader scrolls down the blog post but the[K
+  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l[H  banner should be below the navigation bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[2C[1C[1C[1C[1C[1C[2C[1C[1C[2C[1C[2C[3C[1C[2C[1C[2C[1C[1C[1C[2C[?25l[H[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1m
+›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+  bar/[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K[53;3H[?25h[?25l
+  100% context left[K
+[K[52;3H[?25h[?25l[24;1H  bar[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;6H[?25h[?25l[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[23;182H[?25h[?25l[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[23;171H[?25h[1m›[22m I want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation   
+[K
+  100% context left[K
+[K
+[K[?25l[183C
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[23;182H[?25h[?25l
+  navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;14H[?25h[?25l  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[24;25H[?25h[?25l[23;3H[?25h[?25l[1m›[22m  want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation    
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[23;3H[?25h[1C[1C[1C[1C[1C[?25l[31m[22;1H■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+[K
+[K[1m
+›[22m  want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation    
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[25;8H[?25h[?25l[31m[24;1H■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+[K
+[K[1m
+›[22m  want the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation    
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[183C
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[27;8H[?25h[?25l[1m›[22m  wan the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation     
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[27;7H[?25h[?25l[1m›[22m  wa the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation      
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[27;6H[?25h[?25l[28;25H[?25h[?25l[H[?25h[2J/ T R A N S C R I P T / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /  
+╭─────────────────────────────────────────────────╮[K
+│ [36m✨ Update available! [m[1m0.79.0 -> 0.115.0[22m          │[K
+│ Run [36mnpm install -g @openai/codex [mto update.     │[K
+│                                                 │[K
+│ See full release notes:                         │[K
+│ [36mhttps://github.com/openai/codex/releases/latest [m│[K
+╰─────────────────────────────────────────────────╯[K
+[K
+╭─────────────────────────────────────────────╮[K
+│ >_ [1mOpenAI Codex[22m (v0.79.0)                   │[K
+│                                             │[K
+│ model:     gpt-5.2-codex   [36m/model [mto change │[K
+│ directory: ~\fat-orange-fire-journey        │[K
+╰─────────────────────────────────────────────╯[K
+[K
+  [1mTip:[22m Switch models or reasoning effort quickly with /model.[K
+[K
+[K[1m
+› [22mHow to write a banner to include a disclaimer that says  **Disclaimer:** I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It 
+  does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional   
+  before making any financial decisions.[K
+[K
+[K
+• I'm preparing concise banner text and basic HTML/CSS to guide the user on writing an effective banner message.[K
+[K
+─ Worked for 26s ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[K
+• Here’s a clean banner version you can drop in as plain text or UI copy:[K
+[K
+  [1mDisclaimer:[22m I am not a financial advisor. The content on this blog is for educational and documentary purposes only and does not constitute professional financial, investment, or   
+  legal advice. Investing involves risk. Perform your own due diligence or consult a licensed professional before making any financial decisions.[K
+[K
+  If you want, tell me the format (HTML, Markdown, or a site theme) and I’ll tailor the banner.[K
+[K
+[K[31m
+■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+[K[31m
+■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 100% ─
+ ↑/↓ to scroll   pgup/pgdn to page   home/end to jump[K
+ q to quit   esc to edit prev[K
+[K[1C[?25l[H[?25h[2J[?25l[K
+[K
+[K
+[K
+[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[31m
+■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+[K[31m
+■ Cannot open external editor: set $VISUAL or $EDITOR[K[m
+[K
+[K[1m
+›[22m  wa the banner to appear on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation      
+  navigation navigation[K
+[K
+  100% context left[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[28;25H[?25h[?25l[30;1H[K
+  100% context left[K[29;3H[?25h[?25l  ][K
+[K
+  100% context left[K[29;4H[?25h[?25l[K
+[K
+  100% context left[K[29;3H[?25h[?25l
+  100% context left[K
+[K[28;25H[?25h[?25l[27;25H[?25h[?25l[1m›[22m ar on top of every post (blog and project) and remains sticky even as the reader scrolls down the blog post but the banner should be below the navigation navigation navigation      
+[K
+  100% context left[K
+[K
+[K[27;3H[?25h[1C[1C[?9001h[?1004h[?25l[2J[m[H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H]0;C:\Program Files\Git\bin\bash.exe[?25h[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ ]0;MINGW64:/c/Users/zilia/fat-orange-fire-journeygit status
+[?2004lO[?25ln branch main
+Your branch is up to date with 'origin/main'.[7;1HChanges not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)[31m[10;9Hmodified:   src/layouts/Layout.astro[11;9Hmodified:   terminal.log[m[13;1Hno changes added to commit (use "git add" and/or "git commit -a")
+[?25h[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ git add .
 [?2004l

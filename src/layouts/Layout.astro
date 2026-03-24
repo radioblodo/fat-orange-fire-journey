@@ -133,8 +133,18 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		<meta name="twitter:image" content={image?.src || '/img/fat_fire.png'} />
 	</head>
 	<body>
-		<main data-pagefind-ignore={pagefindIgnore}>
+		<div class="sticky top-0 z-50 w-full">
 			<Navbar />
+			
+			<div class="bg-amber-100 dark:bg-amber-950/30 border-b border-amber-200 dark:border-amber-900 py-2 px-4 text-center">
+				<p class="text-[10px] md:text-xs text-amber-900 dark:text-amber-200 font-medium leading-tight">
+					<strong>Disclaimer:</strong> I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions. 
+					<a href="/disclaimer" class="underline hover:text-amber-700 dark:hover:text-amber-100 transition-colors">Learn more</a>.
+				</p>
+			</div>
+		</div>
+
+		<main data-pagefind-ignore={pagefindIgnore} class="relative z-10">
 			<LayoutGrid>
 				<slot name="left" slot="left" />
 				<slot name="right" slot="right" />
