@@ -24,9 +24,77 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script is:inline>
+			const LIGHT_THEME_HOURS = { start: 7, end: 19 };
+			const THEME_COLORS = {
+				light: "#f6efe3",
+				dark: "#0b0b0b",
+			};
+
+			const getThemeForCurrentTime = () => {
+				const hour = new Date().getHours();
+
+				return hour >= LIGHT_THEME_HOURS.start && hour < LIGHT_THEME_HOURS.end
+					? "light"
+					: "dark";
+			};
+
+			const applyTheme = () => {
+				const theme = getThemeForCurrentTime();
+				const root = document.documentElement;
+				const updateThemeColor = () => {
+					const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+					themeColorMeta?.setAttribute("content", THEME_COLORS[theme]);
+				};
+
+				root.dataset.theme = theme;
+				root.style.colorScheme = theme;
+				updateThemeColor();
+				document.addEventListener("DOMContentLoaded", updateThemeColor, {
+					once: true,
+				});
+
+				window.dispatchEvent(
+					new CustomEvent("themechange", {
+						detail: { theme },
+					}),
+				);
+			};
+
+			const scheduleThemeRefresh = () => {
+				const now = new Date();
+				const nextBoundary = new Date(now);
+				const isLightTheme = getThemeForCurrentTime() === "light";
+
+				nextBoundary.setHours(
+					isLightTheme ? LIGHT_THEME_HOURS.end : LIGHT_THEME_HOURS.start,
+					0,
+					0,
+					0,
+				);
+
+				if (nextBoundary <= now) {
+					nextBoundary.setDate(nextBoundary.getDate() + 1);
+				}
+
+				window.setTimeout(() => {
+					applyTheme();
+					scheduleThemeRefresh();
+				}, nextBoundary.getTime() - now.getTime());
+			};
+
+			applyTheme();
+			scheduleThemeRefresh();
+		</script>
 		<link rel="preload" href="/fonts/Geist.woff2" as="font" type="font/woff2" crossorigin="">
 		<link rel="preload" href="/fonts/GeistMono.woff2" as="font" type="font/woff2" crossorigin="">
-
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+			integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
+			crossorigin="anonymous"
+		/>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -40,7 +108,7 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 
 		<meta name="og:title" content={title} />
 		{description && <meta name="og:description" content={description} />}
-		<meta name="og:image" content={image?.src || '/img/og.png'} />
+		<meta name="og:image" content={image?.src || '/img/fat_fire.png'} />
 		<meta name="og:url" content={Astro.site} />
 		{!article && <meta name="og:type" content="website" />}
 		<meta name="og:locale" content="en" />
@@ -62,11 +130,21 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		)}
 		<meta name="twitter:title" content={title} />
 		{description && <meta name="twitter:description" content={description} />}
-		<meta name="twitter:image" content={image?.src || '/img/og.png'} />
+		<meta name="twitter:image" content={image?.src || '/img/fat_fire.png'} />
 	</head>
 	<body>
-		<main data-pagefind-ignore={pagefindIgnore}>
+		<div class="sticky top-0 z-50 w-full">
 			<Navbar />
+			
+			<div class="bg-amber-100 dark:bg-amber-950/30 border-b border-amber-200 dark:border-amber-900 py-2 px-4 text-center">
+				<p class="text-[10px] md:text-xs text-amber-900 dark:text-amber-200 font-medium leading-tight">
+					<strong>Disclaimer:</strong> I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions. 
+					<a href="/disclaimer" class="underline hover:text-amber-700 dark:hover:text-amber-100 transition-colors">Learn more</a>.
+				</p>
+			</div>
+		</div>
+
+		<main data-pagefind-ignore={pagefindIgnore} class="relative z-10">
 			<LayoutGrid>
 				<slot name="left" slot="left" />
 				<slot name="right" slot="right" />

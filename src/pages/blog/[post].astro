@@ -80,12 +80,14 @@ const { Content, headings } = await render(post);
 	<article slot="right" data-pagefind-body>
 		<Card>
 			<div class="article-header" id="_top" data-pagefind-ignore>
-				<ImageGlow
-					quality={100}
-					class="article-image"
-					src={post.data.image}
-					alt={post.data.title}
-				/>
+				{post.data.image && (
+					<ImageGlow
+						quality={100}
+						class="article-image"
+						src={post.data.image}
+						alt={post.data.title}
+					/>
+				)}
 				<div class="header">
 					<div>
 						<h1 class="no-mt article-h1">{post.data.title}</h1>
@@ -123,14 +125,39 @@ const { Content, headings } = await render(post);
 							}
 							data-emit-metadata={giscus.emitMetadata === true ? "1" : "0"}
 							data-input-position={giscus.commentsInput}
-							data-theme={
-								giscus.theme || "https://spectre.lou.gg/styles/giscus"
-							}
+							data-theme={giscus.theme || "dark"}
 							data-lang={giscus.lang}
 							data-loading="lazy"
 							crossorigin="anonymous"
 							async
 						/>
+						{
+							!giscus.theme && (
+								<script is:inline>
+									const syncGiscusTheme = () => {
+										const iframe = document.querySelector("iframe.giscus-frame");
+										const theme =
+											document.documentElement.dataset.theme === "light"
+												? "light"
+												: "dark";
+
+										iframe?.contentWindow?.postMessage(
+											{
+												giscus: {
+													setConfig: {
+														theme,
+													},
+												},
+											},
+											"https://giscus.app",
+										);
+									};
+
+									window.addEventListener("load", syncGiscusTheme);
+									window.addEventListener("themechange", syncGiscusTheme);
+								</script>
+							)
+						}
 					</div>
 				</Card>
 			)
@@ -150,7 +177,7 @@ const { Content, headings } = await render(post);
 	}
 
 	.toc-card ol li a {
-		color: #c7c7c7;
+		color: var(--text-muted);
 		font-size: 0.925rem;
 		padding: 0.25rem 0.5rem;
 		box-decoration-break: clone;
@@ -158,12 +185,12 @@ const { Content, headings } = await render(post);
 	}
 
 	.toc-card ol li a:hover {
-		color: white;
+		color: var(--text);
 		text-decoration: none;
 	}
 
 	.toc-card ol li a.active {
-		color: white;
+		color: var(--text);
 		background: var(--primary);
 	}
 
@@ -184,7 +211,7 @@ const { Content, headings } = await render(post);
 	}
 
 	.comments * {
-		border-color: #353535 !important;
+		border-color: var(--border-strong) !important;
 	}
 
 	@media screen and (max-width: 640px) {

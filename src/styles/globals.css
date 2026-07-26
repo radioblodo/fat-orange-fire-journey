@@ -5,6 +5,35 @@
 	/* Used for links */
 	--primary-light: #a277ff;
 	--primary-lightest: #c2a8fd;
+	--background: #0b0b0b;
+	--background-soft: #121212;
+	--background-elevated: #181818;
+	--surface: #121212;
+	--surface-strong: #252525;
+	--text: #ffffff;
+	--text-muted: #c7c7c7;
+	--border-strong: #353535;
+	--card-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
+	--card-highlight: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+	--canvas-letter-rgb: 255, 255, 255;
+	--canvas-letter-opacity: 0.01;
+}
+
+:root[data-theme="light"] {
+	--primary-light: #6f47df;
+	--primary-lightest: #5635b6;
+	--background: #f8f1e4;
+	--background-soft: #fffdf8;
+	--background-elevated: #f4e7d2;
+	--surface: #fffaf2;
+	--surface-strong: #f3e6d3;
+	--text: #241b12;
+	--text-muted: #5c4d3f;
+	--border-strong: #d8c4a9;
+	--card-shadow: 0 22px 44px rgba(118, 86, 42, 0.12);
+	--card-highlight: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+	--canvas-letter-rgb: 32, 26, 20;
+	--canvas-letter-opacity: 0.045;
 }
 
 .overview-list {
@@ -94,20 +123,30 @@ main {
 	flex-direction: column;
 	gap: 1rem;
 	padding: 1rem;
-	border: 1px solid #353535;
-	color: #ffffff;
+	background:
+		var(--card-highlight),
+		var(--surface);
+	border: 1px solid var(--border-strong);
+	color: var(--text);
+	box-shadow: var(--card-shadow);
 	text-decoration: none;
 	transition:
+		box-shadow 0.15s ease,
 		background-color 0.15s ease,
-		border 0.15s ease;
+		border 0.15s ease,
+		transform 0.15s ease;
 }
 
 .post-container:hover,
 .post-container:focus-visible {
-	background-color: rgba(var(--primary-rgb), 0.125);
+	background:
+		linear-gradient(180deg, rgba(var(--primary-rgb), 0.12), rgba(var(--primary-rgb), 0.04)),
+		var(--surface);
 	border: 1px solid var(--primary);
-	color: white;
+	color: var(--text);
+	box-shadow: 0 22px 48px rgba(var(--primary-rgb), 0.18);
 	text-decoration: none;
+	transform: translateY(-2px);
 }
 
 .post-container:focus-visible {
@@ -125,7 +164,7 @@ main {
 }
 
 .post-date {
-	color: #c7c7c7;
+	color: var(--text-muted);
 }
 
 .text-glow {
@@ -134,13 +173,13 @@ main {
 }
 
 .block-link {
-	color: white;
+	color: var(--text);
 	padding: 0.25rem 0.5rem;
 }
 
 .block-link:hover,
 .block-link:focus-visible {
-	color: white;
+	color: var(--text);
 	background-color: var(--primary);
 	text-decoration: none;
 	outline: none;

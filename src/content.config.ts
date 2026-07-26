@@ -68,15 +68,16 @@ const posts = defineCollection({
 		}),
 });
 
-const projects = defineCollection({
-	loader: glob({ base: "src/content/projects", pattern: "**/*.{md,mdx}" }),
+const moneyHacks = defineCollection({
+	loader: glob({ base: "src/content/money-hacks", pattern: "**/*.{md,mdx}" }),
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
 			description: z.string(),
 			date: z.coerce.date(),
-			image: image(),
+			image: image().optional(),
 			link: z.string().url().optional(),
+			tags: z.array(reference("tags")).default([]),
 			info: z.array(
 				z.object({
 					text: z.string(),
@@ -90,7 +91,7 @@ const projects = defineCollection({
 export const collections = {
 	tags,
 	posts,
-	projects,
+	moneyHacks,
 	other,
 	quickInfo,
 	socials,

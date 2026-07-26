@@ -1,11 +1,12 @@
 import mdx from '@astrojs/mdx';
-import node from '@astrojs/node';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import expressiveCode from 'astro-expressive-code';
 import { loadEnv } from 'vite';
 import spectre, { type GiscusMapping } from './package/src';
 import { spectreDark } from './src/ec-theme';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const {
 	GISCUS_REPO,
@@ -30,21 +31,21 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: 'Spectre',
+			name: 'Fat Orange FIRE Journey',
 			openGraph: {
 				home: {
-					title: 'Spectre',
-					description: 'A minimalistic theme for Astro.',
+					title: 'Fat Orange FIRE Journey',
+					description: 'A journal for the journey to FIRE',
 				},
 				blog: {
 					title: 'Blog',
-					description: 'News and guides for Spectre.',
+					description: 'News and guides for FIRE',
 				},
 				projects: {
 					title: 'Projects',
 				},
 			},
-			giscus: {
+			giscus: GISCUS_REPO ? {
 				repository: GISCUS_REPO,
 				repositoryId: GISCUS_REPO_ID,
 				category: GISCUS_CATEGORY,
@@ -54,12 +55,13 @@ const config = defineConfig({
 				reactionsEnabled: GISCUS_REACTIONS_ENABLED === 'true',
 				emitMetadata: GISCUS_EMIT_METADATA === 'true',
 				lang: GISCUS_LANG,
-			},
+			} : false,
 		}),
 	],
-	adapter: node({
-		mode: 'standalone',
-	}),
+	markdown: {
+		remarkPlugins: [remarkMath],
+		rehypePlugins: [rehypeKatex],
+	},
 });
 
 export default config;

@@ -9,7 +9,7 @@
 		"start": "node dist/server/entry.mjs",
 		"preview": "astro preview",
 		"astro": "astro",
-		"postbuild": "pagefind --site dist/client",
+		"postbuild": "pagefind --site dist",
 		"lint": "biome check .",
 		"lint:fix": "biome check --write ."
 	},
@@ -23,6 +23,8 @@
 		"@shikijs/themes": "^1.26.1",
 		"astro": "6.0.0",
 		"astro-expressive-code": "^0.38.3",
+		"rehype-katex": "^7.0.1",
+		"remark-math": "^6.0.0",
 		"sharp": "^0.33.5"
 	},
 	"devDependencies": {
