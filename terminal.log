@@ -5145,4 +5145,23 @@ Your branch is up to date with 'origin/main'.[7;1HChanges not staged for commit
 [?25h[?2004h[32m
 zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
 $ git add .
-[?2004l
+[?2004l[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ git omm[K[K[Kcommit -m "Edited the layout"
+[?2004l[main eeb4603] Edited the layout
+ 2 files changed, 4064 insertions(+), 1 deletion(-)
+[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ git push
+[?2004lEnumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 9.78 KiB | 4.89 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/radioblodo/fat-orange-fire-journey.git
+   e272d39..eeb4603  main -> main
+[?2004h[32m
+zilia@ziliang [35mMINGW64 [33m~/fat-orange-fire-journey [36m(main)[m
+$ 

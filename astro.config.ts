@@ -45,7 +45,7 @@ const config = defineConfig({
 					title: 'Projects',
 				},
 			},
-			giscus: {
+			giscus: GISCUS_REPO ? {
 				repository: GISCUS_REPO,
 				repositoryId: GISCUS_REPO_ID,
 				category: GISCUS_CATEGORY,
@@ -55,7 +55,7 @@ const config = defineConfig({
 				reactionsEnabled: GISCUS_REACTIONS_ENABLED === 'true',
 				emitMetadata: GISCUS_EMIT_METADATA === 'true',
 				lang: GISCUS_LANG,
-			},
+			} : false,
 		}),
 	],
 	markdown: {
