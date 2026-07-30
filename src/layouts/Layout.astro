@@ -4,6 +4,7 @@ import "../styles/globals.css";
 
 import { name, themeColor, twitterHandle } from "spectre:globals";
 import Background from "../components/Background.astro";
+import Card from "../components/Card.astro";
 import LayoutGrid from "../components/LayoutGrid.astro";
 import Navbar from "../components/Navbar.astro";
 
@@ -133,16 +134,18 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 		<meta name="twitter:image" content={image?.src || '/img/fat_fire.png'} />
 	</head>
 	<body>
-		<div class="sticky top-0 z-50 w-full">
-			<Navbar />
+		<header class="header-container">
+			<Card class="topbar-card">
+				<Navbar />
+			</Card>
 			
-			<div class="bg-amber-100 dark:bg-amber-950/30 border-b border-amber-200 dark:border-amber-900 py-2 px-4 text-center">
-				<p class="text-[10px] md:text-xs text-amber-900 dark:text-amber-200 font-medium leading-tight">
+			<Card class="disclaimer-card">
+				<p class="disclaimer-text">
 					<strong>Disclaimer:</strong> I am not a financial advisor. The content on this blog is for educational and documentary purposes only. It does not constitute professional financial, investment, or legal advice. Investing involves risk, and you should perform your own due diligence or consult a licensed professional before making any financial decisions. 
-					<a href="/disclaimer" class="underline hover:text-amber-700 dark:hover:text-amber-100 transition-colors">Learn more</a>.
+					<a href="/disclaimer" class="disclaimer-link">Learn more</a>.
 				</p>
-			</div>
-		</div>
+			</Card>
+		</header>
 
 		<main data-pagefind-ignore={pagefindIgnore} class="relative z-10">
 			<LayoutGrid>
