@@ -32,6 +32,14 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 				dark: "#0b0b0b",
 			};
 
+			const getStoredTheme = () => {
+				try {
+					return localStorage.getItem("theme");
+				} catch (e) {
+					return null;
+				}
+			};
+
 			const getThemeForCurrentTime = () => {
 				const hour = new Date().getHours();
 
@@ -40,8 +48,16 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 					: "dark";
 			};
 
-			const applyTheme = () => {
-				const theme = getThemeForCurrentTime();
+			const getEffectiveTheme = () => {
+				const stored = getStoredTheme();
+				if (stored === "light" || stored === "dark") {
+					return stored;
+				}
+				return getThemeForCurrentTime();
+			};
+
+			const applyTheme = (overrideTheme) => {
+				const theme = overrideTheme || getEffectiveTheme();
 				const root = document.documentElement;
 				const updateThemeColor = () => {
 					const themeColorMeta = document.querySelector('meta[name="theme-color"]');
@@ -63,7 +79,22 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 				);
 			};
 
+			const setPreferredTheme = (theme) => {
+				try {
+					localStorage.setItem("theme", theme);
+				} catch (e) {}
+				applyTheme(theme);
+			};
+
+			window.__toggleTheme = () => {
+				const current = document.documentElement.dataset.theme || getEffectiveTheme();
+				const next = current === "dark" ? "light" : "dark";
+				setPreferredTheme(next);
+			};
+
 			const scheduleThemeRefresh = () => {
+				if (getStoredTheme()) return;
+
 				const now = new Date();
 				const nextBoundary = new Date(now);
 				const isLightTheme = getThemeForCurrentTime() === "light";
@@ -80,8 +111,10 @@ const { title, description, image, pagefindIgnore, article } = Astro.props;
 				}
 
 				window.setTimeout(() => {
-					applyTheme();
-					scheduleThemeRefresh();
+					if (!getStoredTheme()) {
+						applyTheme();
+						scheduleThemeRefresh();
+					}
 				}, nextBoundary.getTime() - now.getTime());
 			};
 
